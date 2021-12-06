@@ -1,6 +1,6 @@
 # Coral Identification
-## Overview
 ![image](https://user-images.githubusercontent.com/82346896/144655954-1b581ac6-36bd-42ba-930f-f77d527d2adb.png)
+## Overview
 
 Unfortunately all around the world coral reefs are dying out. Due to climate change, ocean temperatures are slowly rising causing the event of coral bleaching. While pure white bleached coral may carry a beauty of its own, bleached coral is a very bad thing. Coral bleaching occurs when ocean temputures increase. Even one or two degrees Farenhiet can cause coral bleaching. Coral can recover from bleaching, but as ocean temputures keep rising more coral is getting killed by bleaching each year. In order to better track this disastor, I built a Convelutional Nueral Network that can classify between living, bleached, and dead coral.
 
