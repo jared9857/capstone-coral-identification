@@ -37,3 +37,11 @@ In the end I built a CNN model and trained it on images of living, bleached, and
 ## For More Information
 For more information, please take a look at my [Jupyter Notebook](https://github.com/jared9857/capstone-coral-identification/blob/main/Final_Notebook.ipynb) or view my presentation [here](https://docs.google.com/presentation/d/1rVIYAAEjp_cCWFrBVkbMVZ-ao1IbtQNFVID03p0tCKw/edit?usp=sharing).
 ## Repository Structure
+
+```
+├── .ipynb_checkpoints                  <- Folder containing notebook checkpoints
+├── Data                                <- Folder containing train and testing photos 
+├── requirements                        <- Folder containing requirements for the packages used 
+├── Final_Notebook.ipynb                <- Final notebook
+├── README.md                           <- The file you're currently reading from
+```
