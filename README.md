@@ -17,10 +17,23 @@ The data set I used to build and train my model was a public data set from [Kagg
 ![image](https://user-images.githubusercontent.com/82346896/144683954-62a8087d-5c4c-43b3-a5ec-fa18f6352d5c.png)
 The final model I used was a Convolutional Nueral Network. I built this model by starting with a very basic and bare Nueral Network and then adding layers, tweaking settings, and multiple test runs. In order to help deal with our small data set, I implimeted a large amout of image augmentation. Over each epoch the Nueral Network goes through, the model will apply one of methods of augmentation to the photo. It might flip it one way, rotate it X amount of degrees, or zoom in a random amount with in a range I set. This effectivily increases the number of images we can train on. Image agumentation was key in getting my models accuracy up.
 
-## Results
+### Results
+
+The final CNN model had an Accuracy score of 92%.
+
+### Possible Shortcomings
+#### - Class Imbalances
+The data I used contains some large class imbalances. The data has around six times as many photos of living and bleached coral when compared to the images of our dead coral. Having similar numbers of each image type would help improve our model.
+
+#### - Small Dataset
+The dataset I used only had 1,500 images. This would likely reduce our models effectiveness in the field because our model has only seen a very limited set of images. It would only benefit the model to increase the amount and variety of the images used to train and build the model with.
+
+#### - Lack of Field Accurate Photos
+The images I used to build this model are not from the Great Reef Census. In order to more effectively deploy this model it would make the most sense to train the neural network on user submitted images. Survey photos could be taken at all sorts of angles, in a variety of lighting, and with varying image quality. Training the network on these images would help improve the models in field performance.
 
 ## Conclusions
 
+In the end I built a CNN model and trained it on images of living, bleached, and dead coral. The models final accuracy was 92% when classifing my test data. 
 ## For More Information
-
+For more information, please take a look at my [Jupyter Notebook](https://github.com/jared9857/capstone-coral-identification/blob/main/Final_Notebook.ipynb) or view my presentation [here](https://docs.google.com/presentation/d/1rVIYAAEjp_cCWFrBVkbMVZ-ao1IbtQNFVID03p0tCKw/edit?usp=sharing)
 ## Repository Structure
